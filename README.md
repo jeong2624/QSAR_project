@@ -6,21 +6,13 @@
 * The project was conducted as part of "Advanced chemoinformatics" class in the Department of Bioinformatics at Soongsil University, Korea.
 * The purpose of this project is to build linear regression model by using "pyqsar" module in python
 * According to this project, I want to create a model that represents the relationship between the PTP-1B inhibitor and the IC50 value.
+* We obtained the data from the reference below, and to convert it into an SDF file format, we utilized the PubChem database by using the SID number.
+* For building QSAR model, we used PaDEL to generate descriptor.
   
 #### Software & Package version
-* Python 3.9
-* cellranger 6.1.2
-* pyqsar (version 3)
+* Python 3.9.10
+* PaDEL 2.21
+* [pyqsar](https://github.com/crong-k/pyqsar_tutorial)
+* rdkit 2021.09.4
 
-#### Our Dataset :
-* GSE67835 (Healthy human brain samples, raw count matrix)
-* SRR9262932 (ASD prefrontal cortex tissue, Fastq files)
 
-#### We uploaded these files:
-* control_c1.rds : The healthy brain cortex Seurat object data. (Fluidigm C1 platform)
-* ASD_10x.rds : The ASD prefrontal cortex tissue Seurat object data. (10x Genomics platform)
-* C1_control.R : scRNA-seq analysis code for healthy human cortex.
-* 10x_ASD.R : scRNA-seq analysis code for ASD prefrontal cortex tissue.
-* Integration.R : scRNA-seq analysis code for integrated data. (healthy + ASD)
-* filtered_feature_bc_matrix : ASD scRNA-seq analysis raw count matrix. (using cellranger pipeline)
-* control_counts.csv : Healthy brain cortex raw count matrix.

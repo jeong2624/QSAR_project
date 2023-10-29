@@ -4,7 +4,7 @@
 
 #### Description :
 * The project was conducted as part of "Advanced chemoinformatics" class in the Department of Bioinformatics at Soongsil University, Korea.
-* The purpose of this project is to build linear regression model by using "pyqsar" module in python
+* The purpose of this project is to build linear regression model by using "[pyqsar](https://onlinelibrary.wiley.com/doi/abs/10.1002/bkcs.11638)" module in python
 * According to this project, I want to create a model that represents the relationship between the PTP-1B inhibitor and the IC50 value.
 * We obtained the data from the [reference paper](https://www.tandfonline.com/doi/abs/10.1080/10799893.2020.1759092) below, and to convert it into an SDF file format, we utilized the PubChem database by using the SID number.
   

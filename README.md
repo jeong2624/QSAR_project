@@ -7,7 +7,9 @@
 * The purpose of this project is to build linear regression model by using "pyqsar" module in python
 * According to this project, I want to create a model that represents the relationship between the PTP-1B inhibitor and the IC50 value.
 * We obtained the data from the reference below, and to convert it into an SDF file format, we utilized the PubChem database by using the SID number.
+  
 "Quantitative structure-activity relationship (QSAR) and design of novel ligands that demonstrate high potency and target selectivity as protein tyrosine phosphatase 1B (PTP 1B) inhibitors as an effective strategy used to model anti-diabetic agents", David Ebuka Arthur et al. (2020)
+
 * For building QSAR model, we used PaDEL to generate descriptor.
 
   
